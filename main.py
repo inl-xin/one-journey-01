@@ -3,9 +3,9 @@
 
 Writes a complete story about a journey in exactly one sentence
 (at most 300 characters) to /output/entry.txt: she sells the house,
-books a one-way ticket under her mother's name by mistake, and by
-the border — where a guard mispronounces it twice — she has stopped
-correcting him, travelling lighter than she ever had.
+flies one-way on a ticket booked in her mother's name by mistake,
+and when the border guard mispronounces it, she lets it stand —
+the woman in seat 14 travelling lighter than the one who left.
 
 Deterministic: the text is a constant, so every run writes the same
 bytes. No network.
@@ -13,10 +13,10 @@ bytes. No network.
 import os
 
 TEXT = (
-    "She sold the house, booked a one-way ticket under her mother's "
-    "name by mistake, and by the border — where a guard mispronounced "
-    "it twice — she'd stopped correcting him, because the woman in "
-    "seat 14 was travelling lighter than she ever had."
+    "She sold her house, flew one-way on a ticket booked in her "
+    "mother's name by mistake, and when the border guard mispronounced "
+    "it, she let it stand — the woman in seat 14 was travelling "
+    "lighter than the one who left."
 )
 
 
